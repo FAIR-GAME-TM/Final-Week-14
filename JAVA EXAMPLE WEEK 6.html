@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="CSS.css">
+    <link href="Sign up.css" rel="stylesheet">
+    <script src="Javscript.js"></script>
+    
+</head>
+    
+</body>
+</html>
+<!-- !--  Start of Naviigation bar --> 
+<body>
+  <nav>
+      <a href="file:///D:/UNIVERISTY%20OF%20ADVANCED%20TECHNOLOGY/CSC150%20-%20Intro%20to%20programming/Week%204%20-%20CSS/Week%204%20-%20CSS.html">
+          <img src="White LOgo.png" id="WhiteFairGameLogo" alt="Fairgame logo">
+      </a>
+      <ul>
+          <li><a href="Week 4 - CSS.html">Game/Intro</a></li>
+          <li><a href="contact.html">Contact/Sound</a></li>
+          <li><a href="Portfolio.html">Dark Mode</a></li>
+          <li><a href="Spring 2025 Boards.html">Table</a></li>
+          <li><a href="JAVA EXAMPLE WEEK 6.html">Java/user input</a></li>
+
+
+      </ul>
+  </nav>
+
+<!-- End of Navigation bar -->
+    <!-- .align {
+        display: grid;
+        place-items: center;
+      } -->
+    <body  class="align">
+
+        <h3>Create your account</h3>
+      
+        <form id="registrationForm" onsubmit="validateform()">
+      
+          <!-- Pattern attribute is to have a minimum -->
+            <label for="username"> Username:</label>
+            <input type="text" id="username" name="username"   pattern=".{1,}" required>
+            <span class="icon"></span><p> 1 Charcater </p> <br>
+             
+            <label for="password"> Password:</label>
+            <input type="password" id="password"  pattern=".{8,}" required>
+            <span class="icon"></span> <p> 8 Charcaters </p>
+
+            <label for="confirmpassword"> Confirm Password:</label>
+            <input type="password" id="confirmpassword"  pattern=".{8,}" required>
+            <span class="icon"></span> <p> </p>  <br>
+
+            <label for="zipcode"> Zipcode:</label>
+            <input type="zipcode" id="zipcode" pattern=".{5,}" required>
+            <span  class="icon"></span> <p> 5 Charcaters </p> <br>
+
+            <input type="submit" value="submit"><br><br>
+
+        
+      
+        </form>
+      
+        
+      
+      </body>

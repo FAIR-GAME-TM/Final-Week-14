@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="CSS.css"
+    <link rel="stylesheet" href="Contact.css"
+</head>
+
+
+<!-- !--  Start of Naviigation bar -->
+<body>
+  <nav>
+      <a href="file:///D:/UNIVERISTY%20OF%20ADVANCED%20TECHNOLOGY/CSC150%20-%20Intro%20to%20programming/Week%204%20-%20CSS/Week%204%20-%20CSS.html">
+          <img src="White LOgo.png" id="WhiteFairGameLogo" alt="Fairgame logo">
+      </a>
+      <ul>
+          <li><a href="Week 4 - CSS.html">Game/Intro</a></li>
+          <li><a href="contact.html">Contact/Sound</a></li>
+          <li><a href="Portfolio.html">Dark Mode</a></li>
+          <li><a href="Spring 2025 Boards.html">Table</a></li>
+          <li><a href="JAVA EXAMPLE WEEK 6.html">Java/user input</a></li>
+
+
+      </ul>
+  </nav>
+
+<!-- End of Navigation bar -->
+
+
+                Contact Larry for more work a send a emai directly to him
+              </p>
+            </div>
+            <div class="responsive-cell-block wk-ipadp-6 wk-mobile-12 wk-desk-5 wk-tab-9" id="i6df">
+              <div class="form-wrapper"> 
+                <input class="input input-element" name="Name" placeholder="Name">
+                <input class="input input-element" name="Contact Number" placeholder="Contact Number">
+                <input class="input input-element" name="Email" placeholder="Email">
+                <textarea class="textinput input-element" placeholder="Message"></textarea>
+                <button id="myBtn" class="button">
+                  Send
+                </button>
+              </div>
+              <script>
+                var audio = new Audio("swish-sound-94707.mp3");
+                var btn = document.getElementById("myBtn");
+              
+                btn.onclick = function() {
+                  if (audio.paused) {
+                    audio.play();
+                    btn.innerHTML = "Pause Audio";
+                  } else {
+                    audio.pause();
+                    btn.innerHTML = "Play Audio";
+                  }
+                };
+              </script>
+              
